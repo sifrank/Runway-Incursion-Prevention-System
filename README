@@ -1,0 +1,153 @@
+# Runway Lights: Airport Runway Incursion Prevention System
+
+**Course:** ENGR 408 – Engineering Leadership Principles  
+**Competition:** Airport Cooperative Research Program (ACRP) Design Competition  
+**Role:** Prototype Lead  
+**Technology:** Python | Turtle Graphics | Object-Oriented Programming
+
+## Project Overview
+
+Runway Lights was a team engineering project developed for the Airport Cooperative Research Program (ACRP) Design Competition as part of ENGR 408: Engineering Leadership Principles.
+
+Our team explored a technology-based approach to reducing runway incursions, a significant safety concern at airports, particularly those without air traffic control (ATC) services.
+
+The proposed system combined Automatic Dependent Surveillance–Broadcast (ADS-B) aircraft transmissions with optical vehicle detection to monitor runway activity and control a visual lighting alert system.
+
+As the **Prototype Lead**, I guided the team through the prototyping process and contributed to translating the proposed system into a functional Python simulation.
+
+## Problem Statement
+
+Runway incursions occur when aircraft, vehicles, or personnel are incorrectly positioned on a runway or its protected area, creating potentially dangerous situations.
+
+Through interviews with pilots, engineers, and aviation industry professionals, our team identified several recurring concerns:
+
+- Limited situational awareness at airports without control towers.
+- Challenges navigating runways without active ATC guidance.
+- The frequency and potential consequences of runway incursions.
+- The need for an accessible and implementable solution to improve runway awareness.
+
+Our goal was to develop a system concept that could improve runway status awareness and reduce the likelihood of runway incursions for pilots and airport ground personnel.
+
+## Research & User Interviews
+
+To better understand the problem, our team interviewed engineers, pilots, and aviation industry professionals.
+
+The interviews helped identify challenges associated with operating at non-towered airports and highlighted the need for improved runway awareness and communication between aircraft and ground operations.
+
+These findings informed our proposed approach: an automated runway lighting system that responds to detected aircraft and ground vehicle activity.
+
+## Proposed Solution
+
+We proposed an automated runway monitoring and lighting system using two primary detection technologies:
+
+**1. ADS-B Aircraft Detection**
+
+- Receive aircraft transmissions through on-field ADS-B equipment.
+- Evaluate aircraft information, including altitude and distance.
+- Apply predefined parameters to identify aircraft approaching the runway.
+
+**2. Optical Vehicle Detection**
+
+- Use optical detectors to identify vehicles occupying or entering the runway.
+- Incorporate ground vehicle detection into runway status decisions.
+- Help identify potential conflicts between aircraft and ground activity.
+
+**3. Automated Lighting Control**
+
+- Process aircraft and vehicle detection information through a computer.
+- Apply predefined decision rules to determine runway status.
+- Generate control tokens to trigger the appropriate lighting response.
+
+### Conceptual System Workflow
+
+```text
+       ADS-B Aircraft Transmissions
+                    |
+                    v
+          Aircraft Information
+                    |
+                    |
+Optical Vehicle Detection
+                    |
+                    v
+          Central Processing
+                    |
+                    v
+          Decision Logic
+                    |
+                    v
+           Control Tokens
+                    |
+                    v
+        Automated Runway Lights
+                    |
+          +---------+---------+
+          |         |         |
+          v         v         v
+         RED      YELLOW    GREEN
+       Occupied  Imminent   Clear
+```
+
+*Conceptual illustration of the proposed system architecture.*
+
+## Python Prototype
+
+To demonstrate the proposed system logic, our team developed Python-based simulations using Turtle Graphics.
+
+The prototype explored two key components:
+
+### Aircraft Proximity Alert Simulation
+
+- Accepted aircraft altitude and distance inputs.
+- Evaluated aircraft information against predefined thresholds.
+- Generated alert states based on aircraft proximity.
+- Prioritized runway-related alerts.
+
+### Runway Occupancy Controller
+
+- Used an object-oriented `RunwayController` class.
+- Tracked runway occupancy through state management.
+- Simulated vehicle entry and exit events.
+- Triggered visual red and green runway status indicators.
+- Prevented invalid runway entry and exit state transitions.
+
+The simulation demonstrated the basic decision-making and lighting-control concepts behind the proposed system.
+
+## My Role: Prototype Lead
+
+As Prototype Lead, I was responsible for guiding the team through the prototyping process and helping translate our engineering concept into a working demonstration.
+
+My contributions included:
+
+- Leading and coordinating the team's prototyping efforts.
+- Guiding teammates through prototype development.
+- Helping translate the proposed system architecture into executable logic.
+- Contributing to Python development and runway lighting simulations.
+- Supporting iterative development and refinement of the prototype.
+
+## Technical Skills Demonstrated
+
+| Area | Skills |
+|---|---|
+| Programming | Python |
+| Software Design | Object-Oriented Programming, Functions, Conditional Logic |
+| Simulation | Turtle Graphics, State Management |
+| Systems Engineering | Detection Logic, Control Systems Concepts |
+| Research | Stakeholder Interviews, Problem Definition |
+| Leadership | Prototype Leadership, Team Collaboration |
+
+## Future Development Opportunities
+
+Potential enhancements to the concept include:
+
+- Integrating live ADS-B data feeds.
+- Incorporating physical optical vehicle detection sensors.
+- Combining aircraft and vehicle detection into a unified monitoring system.
+- Developing a real-time visual monitoring interface.
+- Testing the system against simulated runway conflict scenarios.
+
+*This project was an academic engineering prototype and conceptual safety system, not a certified or operational aviation safety solution.*
+
+---
+
+**Project Focus:** Aviation Safety | Engineering Design | Python Development | Systems Prototyping | Technical Leadership
