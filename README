@@ -129,23 +129,43 @@ Together, these simulations demonstrated the foundational decision-making and co
 
 ## Project Screenshots
 
-The following screenshots showcase the Python prototype simulations and demonstrate the system's detection logic and runway lighting functionality.
+The images below document the project's progression from early design concepts to the completed physical prototype, including the system architecture, circuit layout, and supporting code.
 
-### ADS-B Aircraft Detection Simulation
+### System Design & Architecture
 
-![ADS-B Aircraft Detection Simulation](Screenshots/REPLACE_WITH_ADSB_SCREENSHOT_FILENAME.png)
+**System diagram**
 
-*Python simulation demonstrating aircraft proximity inputs and alert generation.*
+![Runway system diagram](Screenshots/Diagram.png)
 
-### Optical Vehicle Detection & Runway Occupancy
+**Runway design diagram**
 
-![Runway Occupancy Simulation](Screenshots/REPLACE_WITH_OPTICAL_SCREENSHOT_FILENAME.png)
+![Runway design diagram](Screenshots/Runway%20-%20diagram.png)
 
-*Python simulation demonstrating runway occupancy tracking and visual lighting state changes.*
+### Prototype Development
 
-> Replace the example image filenames above with the actual filenames in the `Screenshots` folder. Additional screenshots can be added using the same Markdown format.
+**Low-fidelity prototype**
 
-[View All Project Screenshots](Screenshots/)
+![Low-fidelity prototype](Screenshots/Low%20Fidelity%20Prototype.png)
+
+**Completed runway prototype**
+
+![Completed runway prototype](Screenshots/Runway%20-%20Finished%20Prototype.png)
+
+**Rear view of the completed prototype**
+
+![Rear view of runway prototype](Screenshots/Runway%20-%20back%20of%20prototype.png)
+
+**Circuit board**
+
+![Circuit board](Screenshots/CircuitBoad.png)
+
+### Code & Implementation
+
+**Prototype code**
+
+![Prototype code](Screenshots/Sketch%20Code.png)
+
+[View the full Screenshots folder](Screenshots/)
 
 ## My Role: Prototype Lead
 
